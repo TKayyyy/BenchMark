@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Thư mục kết quả chạy (chứa các file CSV sinh ra)
+results/
+
+# Thư mục datasets (Nếu datasets của bạn rất nặng hoặc chứa file >100MB thì BẮT BUỘC phải ignore để tránh lỗi khi push)
+# Nếu muốn push cả dataset lên thì xóa dòng bên dưới đi
+datasets/
+
+# OS generated files
+.DS_Store
+Thumbs.db
